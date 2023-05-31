@@ -6,13 +6,21 @@
     top: 0;
 }
 
+.superior__secao__container {
+    display: flex;    
+    align-items: center;
+    white-space: nowrap;
+    overflow: scroll;
+    gap: 15px;
+}
+
 .rodape__container {
     display: flex;
     /* flex-direction: column;
     flex-wrap: wrap; */
     flex-flow: column wrap;
-
 }
+
 
 @media (max-width: 834px) {
     .cabecalho__pesquisar__item {
