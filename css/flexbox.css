@@ -64,4 +64,18 @@
         justify-content: space-between;
     }
 
+    .menu__container {
+        left: 0;
+        width: 74px;
+        height: auto;
+        top: 80px;
+    }
+
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
+    }
+
 }
