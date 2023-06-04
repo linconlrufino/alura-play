@@ -47,6 +47,11 @@
   gap: 15px;
 }
 
+.videos__item {
+  height: 303px;
+  width: 280px;
+}
+
 .rodape__container {
   display: flex;
   /* flex-direction: column;
